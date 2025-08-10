@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro{
+  background-color: blue;
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro h1,
+.intro h3{
+  background-color: aqua;
+  height: 40px;
+  padding: 20px;
+}
+
+.intro .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 600px;
+}
+
+.intro .content .content-image img{
+  flex: 1;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.intro p{
+  padding: 20px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.list{
+  background-color: antiquewhite;
+  font-family: 'Poppins', sans-serif;
+}
+
+.list h1{
+  padding: 20px;
+  text-align: center;
+}
+
+.list .habit{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 40px;
+  margin: 80px;
+}
+
+.left h3,
+.right h3{
+  padding-bottom: 20px;
+}
+
+.table{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-collapse: collapse;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+th, td{
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.listen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.woman{
+  
+ background-color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+.woman h1{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.woman .what{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.last-last{
+  
+  font-family: 'Poppins', sans-serif;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+  padding: 40px;
+  border: solid black 2px;
+  margin: 80px;
+  border-radius: 8px;
+}
+
+fieldset{
+  border: solid black 1px;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+ 
+li{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+input{
+  height: 20px;
+  width: auto;
+  border-radius: 4px;
+}
+
+legend{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-weight: bold;
+}
+
+label{
+  font-weight: bold;
+}
+
+textarea{
+  font-family: 'Poppins', sans-serif;
+  border-radius: 4px;
+}
+
+button{
+  margin-left: 200px;
+  height: 20px;
+  width: 60px;
+  border: none;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 50%);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: white;
+  color: hsl(0, 0%, 50%);
+}
+
+@media  (max-width: 995px) {
+  .woman .what{
+    flex-direction: column;
+  }
+  .intro .content{
+    flex-direction: column;
+  }
+}
